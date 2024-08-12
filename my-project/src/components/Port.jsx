@@ -1,6 +1,7 @@
 import './css/port.css';
 import React, { useEffect, useState } from 'react';
-import { motion } from 'framer-motion';
+import { motion ,useAnimation} from 'framer-motion';
+
 // import Navbar from './Nav';
 import About from './About';
 import Skills from './Skills';

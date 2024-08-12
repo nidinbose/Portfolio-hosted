@@ -27,7 +27,7 @@ const Contact = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
             viewport={{ once: true }}
-            className="py-6 pb-20 "
+            className="py-6 pb-20 xl:pb-[140px] xl:pt-[110px]"
         >
             <div className="container mx-auto">
                 <div className="flex flex-col xl:flex-row gap-8">

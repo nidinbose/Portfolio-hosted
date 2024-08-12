@@ -58,10 +58,10 @@ const About = () => {
         </h1>
         <Tabs className="flex flex-col xl:flex-row gap-[290px]">
           <TabList className="flex flex-col w-full max-w-[380px] mx-auto xl:mx-0 gap-6">
-            <Tab className="text-white hover:bg-emerald-400 hover:text-gray-700 font-bold font-mono rounded-md pb-1 pt-1 bg-white/10 pt-2 pb-2">Experience</Tab>
-            <Tab className="text-white hover:bg-emerald-400 hover:text-gray-700 font-bold font-mono rounded-md pb-1 pt-1 bg-white/10 pt-2 pb-2">Education</Tab>
-            <Tab className="text-white hover:bg-emerald-400 hover:text-gray-700 font-bold font-mono rounded-md pb-1 pt-1 bg-white/10 pt-2 pb-2">Skills</Tab>
-            <Tab className="text-white hover:bg-emerald-400 hover:text-gray-700 font-bold font-mono rounded-md pb-1 pt-1 bg-white/10 pt-2 pb-2">About me</Tab>
+            <Tab className="text-white hover:bg-emerald-400 hover:text-gray-700 font-bold font-mono rounded-md pb-1 pt-1 bg-white/10 pt-2 pb-2 text-center">Experience</Tab>
+            <Tab className="text-white hover:bg-emerald-400 hover:text-gray-700 font-bold font-mono rounded-md pb-1 pt-1 bg-white/10 pt-2 pb-2 text-center">Education</Tab>
+            <Tab className="text-white hover:bg-emerald-400 hover:text-gray-700 font-bold font-mono rounded-md pb-1 pt-1 bg-white/10 pt-2 pb-2  text-center">Skills</Tab>
+            <Tab className="text-white hover:bg-emerald-400 hover:text-gray-700 font-bold font-mono rounded-md pb-1 pt-1 bg-white/10 pt-2 pb-2  text-center">About me</Tab>
           </TabList>
 
           <div className='min-h-[70vh] w-full'>

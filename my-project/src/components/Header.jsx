@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import NavigationBar from './Nav'
+import MobileNav from './MobNav';
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,14 +18,16 @@ const Header = () => {
              <div className="hidden xl:flex items-center gap-8">
 
              <NavigationBar/>
-             <Link href="/contact">
-             <button>Hire me</button>
-             </Link>
+             <Link to="/contact">
+            <button className='text-center font-mono text-white bg-emerald-400  rounded-xl w-24 h-8 hover:bg-gray-500'>
+                Hire me
+            </button>
+        </Link>
             
              </div>
 
              {/* mobilenav */}
-             <div className="xl:hidden">mobilenav</div>
+             <div className="xl:hidden"> <MobileNav/>  </div>
             
         </div>
      </header>

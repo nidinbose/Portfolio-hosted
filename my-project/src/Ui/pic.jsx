@@ -8,7 +8,7 @@ const Pic = () => {
         <img 
           src="./images/b.png" 
           alt="Responsive Image" 
-          className="object-contain mix-blend-screen w-auto h-64 sm:h-80 md:h-96 xl:h-112 mb-12 xl:ml-[150px] xl:mr-[30px]"
+          className="object-contain mix-blend-screen w-auto h-64 sm:h-80 md:h-96 xl:h-112 mb-12 xl:ml-[150px] xl:mr-[30px] "
 
         />
       </motion.div>
