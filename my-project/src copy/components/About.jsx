@@ -11,7 +11,7 @@ const About = () => {
       </div>
     </div> */}
 
-    <div className="p-4 sm:p-6 md:p-8 lg:p-10 xl:p-12 font-mono">
+    <div className="p-4 sm:p-6 md:p-8 lg:p-10 xl:p-12 font-mon">
       <div className="flex flex-col sm:flex-row sm:gap-x-10 md:gap-x-20 lg:gap-x-30 xl:gap-x-40">
         <p className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 font-bold text-gray-500 hover:text-emerald-400">Name</p>
         <h1 className="w-full sm:w-1/2 md:w-2/3 lg:w-3/4 xl:w-4/5 text-xl font-medium hover:text-purple-400">Nidinbose</h1>
